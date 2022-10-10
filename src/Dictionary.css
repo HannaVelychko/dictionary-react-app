@@ -1,0 +1,32 @@
+.Dictionary {
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+.Dictionary label {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+}
+
+.Dictionary .search-input {
+  display: block;
+  height: 64px;
+  color: #666;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 16px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 60%;
+}
+
+.form-contro {
+  font-weight: 400;
+  text-align: center;
+}

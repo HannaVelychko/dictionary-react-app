@@ -16,7 +16,7 @@ export default function Dictionary() {
   }
 
   //documentation: https://dictionaryapi.dev/
-  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
+  let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
   console.log(apiUrl);
   axios.get(apiUrl).then(handleResponse);
 
@@ -28,7 +28,15 @@ export default function Dictionary() {
   return (
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="searh" autoFocus={true} onChange={handleKeywordChange} />
+        <label>What word do you want to look up?</label>
+        <br />
+        <input
+          type="search"
+          placeholder="Search for a word"
+          autoFocus={true}
+          onChange={handleKeywordChange}
+          class="form-control search-input"
+        />
       </form>
       <Results resuts={results} />
     </div>
