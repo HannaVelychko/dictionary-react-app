@@ -1,3 +1,7 @@
+body {
+  background: #f9f7fe;
+  font-family: "Cerebri-Sans", Helvetica, Arial, sans-serif;
+}
 .App {
   padding: 60px 0 100px;
   max-width: 960px;

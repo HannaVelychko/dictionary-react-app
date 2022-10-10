@@ -14,8 +14,15 @@ export default function App() {
         </main>
         <footer className="App-footer">
           <small>
-            This project was coded by Hanna Velychko and is open-sourced on
-            GitHub and hosted on Netlify
+            This project was coded by Hanna Velychko and is{" "}
+            <a
+              href="https://github.com/HannaVelychko/dictionary-react-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              open-sourced on GitHub
+            </a>{" "}
+            and hosted on Netlify
           </small>
         </footer>
       </div>
