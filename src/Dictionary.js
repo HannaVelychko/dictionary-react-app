@@ -4,7 +4,7 @@ import Results from "./Results";
 import "./Dictionary.css";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState(null);
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
@@ -40,7 +40,7 @@ export default function Dictionary() {
           />
         </form>
       </section>
-      <Results resuts={results} />
+      <Results results={results} />
     </div>
   );
 }
