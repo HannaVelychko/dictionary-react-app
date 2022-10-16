@@ -33,6 +33,11 @@
   width: 100%;
 }
 
+.Dictionary .hint {
+  margin-top: 10px;
+  display: block;
+}
+
 .form-contro {
   font-weight: 400;
   text-align: center;
